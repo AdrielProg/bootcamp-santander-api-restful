@@ -8,12 +8,16 @@ public class Account {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     @Column(unique = true)
     private String accountNumber;
+
     private String accountAgency;
-    @Column(scale = 13 ,precision = 2)
+
+    @Column(scale = 2 ,precision = 13)
     private BigDecimal accountBalance;
-    @Column(name = "additional_limit", scale = 13 ,precision = 2)
+
+    @Column(name = "additional_limit", scale = 2 ,precision = 13)
     private  BigDecimal AccountLimit;
 
     public Long getId() {
