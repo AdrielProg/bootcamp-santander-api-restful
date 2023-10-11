@@ -1,4 +1,4 @@
-package dio.me.domain.controller.exception;
+package dio.me.controller.exception;
 
 
 import org.slf4j.Logger;

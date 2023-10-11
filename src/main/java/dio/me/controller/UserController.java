@@ -1,4 +1,5 @@
-package dio.me.domain.controller;
+package dio.me.controller;
+
 
 import dio.me.domain.model.User;
 import dio.me.service.UserService;
