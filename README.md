@@ -39,7 +39,7 @@ classDiagram
   User "1" *--> "N" Feature 
   User *--> Card : 1
   User "1" *--> "N" News 
-
+```
 ## Funcionalidades
 
 O projeto oferece uma estrutura básica com as seguintes funcionalidades:
