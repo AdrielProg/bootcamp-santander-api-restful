@@ -2,9 +2,6 @@ package dio.me.service;
 
 import dio.me.domain.model.User;
 
-public interface UserService {
+public interface UserService extends CrudService<Long, User>{
 
-    User findById(long id);
-
-    User createUser(User userToCreate);
 }
